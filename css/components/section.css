@@ -1,0 +1,113 @@
+.section {
+  min-height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding: 75px;
+  border-bottom: 3px solid white;
+  text-align: center;
+  align-items: center;
+}
+
+.section-even {
+  background-color: #ef6f6c;
+}
+
+.section-odd {
+  background-color: #87baab;
+}
+
+.section-header {
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 5vh;
+}
+
+.section-header-even {
+  color: white;
+}
+
+.section-header-odd {
+  color: #446456;
+}
+
+.section-text {
+  width: 50vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
+.clients {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  text-align: center;
+  align-items: center;
+}
+
+.client-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.image-banner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-wrapper {
+  width: 19.5vw;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.image {
+  width: 100%;
+}
+
+.image-text {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  padding: 1vw;
+  font-size: 1.25em;
+  transition: 0.25s;
+}
+
+.image-text:hover {
+  background-color: #ef6f6c;
+  color: white;
+  font-size: 1.25em;
+  opacity: 1;
+  transition: 0.25s;
+}
+
+.footer {
+  height: 15vh;
+  background-color: rgba(75, 75, 75, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 2vw;
+}
